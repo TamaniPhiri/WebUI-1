@@ -13,7 +13,7 @@ const NavBar = () => {
     <nav class="flex items-center justify-between flex-wrap bg-gray-800 p-6 fixed w-full z-10 top-0">
       <div class="flex items-center flex-shrink-0 text-white mr-6">
         <a class="text-white no-underline hover:text-white hover:no-underline flex-row" href="#">
-          <img src={Logo} alt="" className=' h-10 hover:rotate-45 transition-all ease-in-out hover:scale-110'/>
+          <img src={Logo} alt="" className=' h-10 hover:rotate-45 transition-all ease-in-out hover:scale-110 hover:rounded-lg'/>
         </a>
       </div>
 
