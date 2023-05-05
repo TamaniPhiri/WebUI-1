@@ -6,6 +6,8 @@ import Logo from '../assets/images/trowel.png'
 
 const NavBar = () => {
 
+
+
     document.getElementById('nav-toggle').onclick = function(){
     document.getElementById("nav-content").classList.toggle("hidden")}
 
