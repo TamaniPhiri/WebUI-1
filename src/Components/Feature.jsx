@@ -1,6 +1,9 @@
 const Feature = () => {
   return (
-    <section id="services" class="text-gray-400 bg-white body-font h-auto lg:h-screen">
+    <section
+      id="services"
+      class="text-gray-400 bg-white body-font h-auto lg:h-screen"
+    >
       <div class="container px-5 py-24 mx-auto flex flex-wrap">
         <div class="flex flex-col text-center w-full mb-20">
           <h2 class="text-xs text-gray-700 tracking-widest font-medium title-font mb-1">
