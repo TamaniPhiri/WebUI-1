@@ -2,6 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
-div{
+body{
     font-family: 'Poppins', sans-serif;
+}
+*{
+    scrollbar-color: #a3e635 #1f2937;
+}
+#menu{
+    animation-name: Slide;
+    animation-duration: 0.3s;
+}
+@keyframes Slide{
+    0%{
+        opacity: 0;
+        transform: rotate(-45deg);
+    }
+    100%{
+        opacity: 1;
+        transform: rotate(0);
+    }
 }

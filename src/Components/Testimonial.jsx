@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Testimonial = () => {
   return (
     <section class="text-gray-800 bg-white body-font">
