@@ -1,5 +1,3 @@
-import React from "react";
-
 const Team = () => {
   return (
     <section id="team" class="text-gray-400 bg-gray-800 body-font">
