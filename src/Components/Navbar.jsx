@@ -27,11 +27,11 @@ const NavBar = () => {
   };
 
   return (
-    <nav class="flex items-center justify-between flex-wrap bg-gray-800 p-6 fixed w-full z-10 top-0">
-      <div class="flex items-center flex-shrink-0 text-white mr-6">
+    <nav className="flex items-center justify-between flex-wrap bg-gray-800 p-6 fixed w-full z-10 top-0">
+      <div className="flex items-center flex-shrink-0 text-white mr-6">
         <button
           onClick={handleHome}
-          class="text-white no-underline hover:text-white hover:no-underline flex-row"
+          className="text-white no-underline hover:text-white hover:no-underline flex-row"
         >
           <img
             src={Logo}
@@ -41,10 +41,10 @@ const NavBar = () => {
         </button>
       </div>
 
-      <div class="block lg:hidden" onClick={handleMenu}>
+      <div className="block lg:hidden" onClick={handleMenu}>
         {open ? (
           <div>
-            <button class="flex items-center px-3 py-2 transition-all ease-in-out rounded text-white hover:text-lime-400 hover:border-white ">
+            <button className="flex items-center px-3 py-2 transition-all ease-in-out rounded text-white hover:text-lime-400 hover:border-white ">
               <svg
                 viewBox="0 0 470 1000"
                 fill="currentColor"
@@ -61,22 +61,22 @@ const NavBar = () => {
               >
                 <ul className="flex flex-col rounded-md h-screen bg-white gap-4">
                   <li>
-                    <button className="flex w-full hover:bg-gray-200 py-1 px-2">
+                    <button onClick={handleHome} className="flex w-full hover:bg-gray-200 py-1 px-2">
                       Home
                     </button>
                   </li>
                   <li>
-                    <button className="flex w-full hover:bg-gray-200 py-1 px-2">
+                    <button onClick={handleServices} className="flex w-full hover:bg-gray-200 py-1 px-2">
                       Services
                     </button>
                   </li>
                   <li>
-                    <button className="flex w-full hover:bg-gray-200 py-1 px-2">
+                    <button onClick={handlePricing} className="flex w-full hover:bg-gray-200 py-1 px-2">
                       Pricing
                     </button>
                   </li>
                   <li>
-                    <button className="flex w-full hover:bg-gray-200 py-1 px-2">
+                    <button onClick={handleTeam} className="flex w-full hover:bg-gray-200 py-1 px-2">
                       Team
                     </button>
                   </li>
@@ -85,9 +85,9 @@ const NavBar = () => {
             ) : null}
           </div>
         ) : (
-          <button class="flex items-center px-3 py-2 transition-all ease-in-out rounded text-white hover:text-lime-400 hover:border-white ">
+          <button className="flex items-center px-3 py-2 transition-all ease-in-out rounded text-white hover:text-lime-400 hover:border-white ">
             <svg
-              class="fill-current h-5 w-5"
+              className="fill-current h-5 w-5"
               viewBox="0 0 20 20"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -98,39 +98,39 @@ const NavBar = () => {
         )}
       </div>
 
-      <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden pt-6 lg:pt-0">
-        <ul class="list-reset lg:flex justify-end flex-1 items-center">
-          <li class="mr-3">
+      <div className="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden pt-6 lg:pt-0">
+        <ul className="list-reset lg:flex justify-end flex-1 items-center">
+          <li className="mr-3">
             <button
               onClick={handleHome}
-              class="inline-block py-2 px-4 text-white no-underline transition-all ease-in-out hover:text-lime-400 w-full"
+              className="inline-block py-2 px-4 text-white no-underline transition-all ease-in-out hover:text-lime-400 w-full"
               href="#"
             >
               Home
             </button>
           </li>
-          <li class="mr-3">
+          <li className="mr-3">
             <button
               onClick={handleServices}
-              class="inline-block text-white no-underline transition-all ease-in-out hover:text-lime-400 hover:text-underline py-2 px-4 w-full"
+              className="inline-block text-white no-underline transition-all ease-in-out hover:text-lime-400 hover:text-underline py-2 px-4 w-full"
               href="#"
             >
               Services
             </button>
           </li>
-          <li class="mr-3">
+          <li className="mr-3">
             <button
               onClick={handlePricing}
-              class="inline-block text-white no-underline transition-all ease-in-out hover:text-lime-400 hover:text-underline py-2 px-4 w-full"
+              className="inline-block text-white no-underline transition-all ease-in-out hover:text-lime-400 hover:text-underline py-2 px-4 w-full"
               href="#"
             >
               Pricing
             </button>
           </li>
-          <li class="mr-3">
+          <li className="mr-3">
             <button
               onClick={handleTeam}
-              class="inline-block text-white no-underline transition-all ease-in-out hover:text-lime-400 hover:text-underline py-2 px-4 w-full"
+              className="inline-block text-white no-underline transition-all ease-in-out hover:text-lime-400 hover:text-underline py-2 px-4 w-full"
               href="#"
             >
               Team
