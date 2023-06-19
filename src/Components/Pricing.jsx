@@ -9,7 +9,7 @@ const Pricing = () => {
           <h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-white">
             Pricing
           </h1>
-          <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
+          <p class="lg:w-2/3 mx-auto leading-relaxed text-sm md:text-base">
             Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical.
           </p>
           <div class="flex mx-auto border-2 border-lime-400 rounded overflow-hidden mt-6">

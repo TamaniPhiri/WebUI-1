@@ -59,7 +59,7 @@ const NavBar = () => {
                 id="menu"
                 className="absolute top-[100%] right-0 w-1/2 shadow-2xl shadow-black"
               >
-                <ul className="flex flex-col rounded-md h-screen bg-white gap-4">
+                <ul className="flex flex-col rounded-md h-screen bg-white gap-4 text-[#1f2937]">
                   <li>
                     <button onClick={handleHome} className="flex w-full hover:bg-gray-200 py-1 px-2">
                       Home
