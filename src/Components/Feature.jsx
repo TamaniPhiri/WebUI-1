@@ -35,7 +35,7 @@ const Feature = () => {
                 </h2>
               </div>
               <div className="flex-grow">
-                <p className="leading-relaxed text-base">
+                <p className="leading-relaxed text-sm md:text-base">
                   Blue bottle crucifix vinyl post-ironic four dollar toast vegan
                   taxidermy. Gastropub indxgo juice poutine.
                 </p>
@@ -78,7 +78,7 @@ const Feature = () => {
                 </h2>
               </div>
               <div className="flex-grow">
-                <p className="leading-relaxed text-base">
+                <p className="leading-relaxed text-sm md:text-base">
                   Blue bottle crucifix vinyl post-ironic four dollar toast vegan
                   taxidermy. Gastropub indxgo juice poutine.
                 </p>
@@ -122,7 +122,7 @@ const Feature = () => {
                 </h2>
               </div>
               <div className="flex-grow">
-                <p className="leading-relaxed text-base">
+                <p className="leading-relaxed text-sm md:text-base">
                   Blue bottle crucifix vinyl post-ironic four dollar toast vegan
                   taxidermy. Gastropub indxgo juice poutine.
                 </p>

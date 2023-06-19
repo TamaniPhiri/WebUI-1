@@ -6,7 +6,7 @@ const Team = () => {
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-2 text-white">
             OUR TEAM
           </h1>
-          <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
+          <p className="lg:w-2/3 mx-auto leading-relaxed text-sm md:text-base">
             Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
             gentrify, subway tile poke farm-to-table. Franzen you probably
             haven't heard of them.
@@ -25,7 +25,7 @@ const Team = () => {
                   Holden Caulfield
                 </h2>
                 <h3 className="text-gray-500 mb-3">UI Developer</h3>
-                <p className="mb-4">
+                <p className="mb-4 md:text-base text-sm">
                   DIY tote bag drinking vinegar cronut adaptogen squid fanny
                   pack vaporware.
                 </p>
@@ -85,7 +85,7 @@ const Team = () => {
                   Alper Kamu
                 </h2>
                 <h3 className="text-gray-500 mb-3">Designer</h3>
-                <p className="mb-4">
+                <p className="mb-4 md:text-base text-sm">
                   DIY tote bag drinking vinegar cronut adaptogen squid fanny
                   pack vaporware.
                 </p>
@@ -145,7 +145,7 @@ const Team = () => {
                   Atticus Finch
                 </h2>
                 <h3 className="text-gray-500 mb-3">UI Developer</h3>
-                <p className="mb-4">
+                <p className="mb-4 md:text-base text-sm">
                   DIY tote bag drinking vinegar cronut adaptogen squid fanny
                   pack vaporware.
                 </p>
@@ -205,7 +205,7 @@ const Team = () => {
                   Henry Letham
                 </h2>
                 <h3 className="text-gray-500 mb-3">Designer</h3>
-                <p className="mb-4">
+                <p className="mb-4 md:text-base text-sm">
                   DIY tote bag drinking vinegar cronut adaptogen squid fanny
                   pack vaporware.
                 </p>
